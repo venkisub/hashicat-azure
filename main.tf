@@ -123,7 +123,8 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-    "Billable" : "SPCS"
+    "Billable" : "Yes",
+    "Department" : "SPCS"
   }
 }
 
